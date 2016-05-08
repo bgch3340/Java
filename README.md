@@ -19,9 +19,9 @@ public class BlackJack{
     System.out.println("Play again?");
     while(true){String v = z.nextLine();
     while(v.equals("Y")){
-      
+      continue;
     }
-    continue;
+    break;
     }
   }
   
