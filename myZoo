@@ -1,0 +1,23 @@
+import java.util.Random;
+import java.util.Scanner;
+public class myZoo{
+  public static void main(String[] args){
+  //make animals and add them to an array
+    System.out.println("Welcome to Zoo");
+    Scanner o = new Scanner(System.in);
+    System.out.println("");
+  }
+  public static void all_sounds(Animal[] zoo){
+    if (true){
+      System.out.println("The lion goes roar ");
+    }
+    else if (true){
+      System.out.println("The cat goes meow ");
+    }
+    else if (true){
+      System.out.println("The dog goes dog sound");
+    }
+  // output...
+  }
+//In Animal.java
+}
