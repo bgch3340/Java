@@ -15,11 +15,11 @@ public class myZoo{
     for(int i=0;i<zoo.length;i++){
     
     Scanner my_zoo_animal = new Scanner(System.in);
-    System.out.println((i+1)+" - Animal?");
+    System.out.println((i+1)+" Animal");
     String my_animal = my_zoo_animal.nextLine();
     
     Scanner my_zoo_sound = new Scanner(System.in);
-    System.out.println(my_animal+" Sound?");
+    System.out.println(my_animal+" Sound");
     String my_sound = my_zoo_sound.nextLine();
     
     zoo[i]=new Animal(my_animal,my_sound);
