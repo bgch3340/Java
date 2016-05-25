@@ -5,19 +5,33 @@ public class myZoo{
   //make animals and add them to an array
     System.out.println("Welcome to Zoo");
     Scanner o = new Scanner(System.in);
-    System.out.println("");
+    int o = 0;
+    while(o==0){
+      Scanner my_zoo_number = new Scanner(System.in);
+      System.out.println("Input Number");
+      number = my_zoo_number.nextInt();
+      o=1;
   }
+    for(int i=0;i<zoo.length;i++){
+    
+    Scanner my_zoo_animal = new Scanner(System.in);
+    System.out.println((i+1)+" - Animal?");
+    String my_animal = my_zoo_animal.nextLine();
+    
+    Scanner my_zoo_sound = new Scanner(System.in);
+    System.out.println(my_animal+" Sound?");
+    String my_sound = my_zoo_sound.nextLine();
+    
+    zoo[i]=new Animal(my_animal,my_sound);
+    
+    }
+    
+    all_sounds(zoo);
+  }
+  
   public static void all_sounds(Animal[] zoo){
-    if (true){
-      System.out.println("The lion goes roar ");
+    for(int i=0;i<zoo.length;i++){
+    System.out.println("The "+ zoo[i].name + " gose "+ zoo[i].sound);
     }
-    else if (true){
-      System.out.println("The cat goes meow ");
-    }
-    else if (true){
-      System.out.println("The dog goes dog sound");
-    }
-  // output...
   }
-//In Animal.java
 }
