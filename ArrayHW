@@ -1,0 +1,27 @@
+import java.util.Arrays;
+public class ArrayHW{
+  public static void main(String[] args){   
+    int y = 1;
+    int[][] z = new int[2][2];
+    
+    z[0][0] = 1;
+    z[0][1] = 2;
+    z[1][0] = 3;
+    z[1][1] = 4;
+    
+    for (int i = 0; i < 2; i++) {//get a line
+      for (int j = 0; j < 2; j++) {//get a row
+        System.out.print(z[i][j] + z[i][j] + " ");//value of two-dimension count "z"
+      }
+      System.out.println();
+    }
+    /*for (???){
+      for (???){
+        ???
+      }
+    }*/
+        
+    System.out.println(Arrays.deepToString(z));
+
+  } 
+}
