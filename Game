@@ -1,4 +1,10 @@
 public class Game{
   System.out.println("A+++++++++++++++++++++++++++++++++++++++++++++++");
   System.out.println("make a game");
+  
+  System.out.println(" get money!!!!!!!!!!!!");
+  
+  int a = 2;
+  if (a==1){
+    System.out.println("i love you");
 }
