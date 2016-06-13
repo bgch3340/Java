@@ -4,7 +4,6 @@ public class Game{
   
   System.out.println(" get money!!!!!!!!!!!!");
   
-  int a = 2;
-  if (a==1){
-    System.out.println("i love you");
+  while(true){
+    System.out.println("you get FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
 }
